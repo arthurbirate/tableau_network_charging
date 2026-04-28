@@ -222,7 +222,7 @@ Revenue per session is strong but critical for scaling profitability.
 
 # Station & Vehicle Performance Segmentation
 
-![Station & Vehicle Dashboard](vehicle-station.png)
+![Station & Vehicle Dashboard](Vehicle&Station.png)
 
 ---
 
