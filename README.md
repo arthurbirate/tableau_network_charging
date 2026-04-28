@@ -1,7 +1,7 @@
 # VoltCharge Networks — EV Charging Analytics | Tableau  
 ### Global Network Performance, Demand Patterns & Segmentation
 
-![Global EV Charging Dashboard](global-charging.png)
+![Global EV Charging Dashboard](Global%20Charging%20.png)
 
 ---
 
