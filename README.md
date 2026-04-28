@@ -1,40 +1,58 @@
-
-
-# VoltCharge Networks — EV Charging Analytics | Tableau 
+# VoltCharge Networks — EV Charging Analytics | Tableau  
 ### Global Network Performance, Demand Patterns & Segmentation
 
-![Global EV Charging Dashboard](Global%20Charging%20.png)
+![Global EV Charging Dashboard](global-charging.png)
+
+---
+
+## Executive Summary
+
+This project analyzes a global EV charging network to uncover inefficiencies in infrastructure allocation, pricing, and customer monetization.
+
+### Key Findings
+- Energy demand varies by **~17x across regions**, indicating major infrastructure imbalance  
+- **~49% of total revenue** is concentrated in just three cities, creating dependency risk  
+- Peak demand is **~7x higher than off-peak**, highlighting load optimization opportunities  
+- **70% of users are low-value (Basic)**, revealing strong upsell potential  
+- Highway locations generate **~2.8x higher revenue per session than malls**  
+- Station downtime has a **direct negative impact on revenue generation**  
+
+### Business Impact
+- Enables **data-driven infrastructure expansion**  
+- Improves **pricing and revenue efficiency**  
+- Optimizes **station uptime and performance**  
+- Increases **customer lifetime value (LTV)**  
 
 ---
 
 ## Introduction
 
-VoltCharge Networks is a fictional global provider of electric vehicle (EV) charging infrastructure, operating at the intersection of clean energy, smart mobility, and data analytics. The company manages a distributed network of charging stations across major cities and emerging markets, delivering reliable and scalable charging solutions while supporting sustainable urban transportation.
+VoltCharge Networks is a fictional global EV charging provider operating across North America, Europe, and emerging markets. The company leverages a hybrid model of **pay-per-session charging and subscription tiers** to monetize usage.
 
-VoltCharge’s business model combines pay-per-session charging with subscription tiers (Basic and Premium), enabling a balance between high user volume and recurring revenue. With **20,000 customers**, **$13.30M in total revenue**, and an **average revenue per session of $265.91**, the company demonstrates strong monetization in high-demand urban environments.
+With **20,000 customers**, **$13.30M in revenue**, and **$265.91 average revenue per session**, VoltCharge demonstrates strong performance in high-demand urban environments but faces challenges in efficiency and scalability.
 
 ---
 
 ## Problem Statement
 
-VoltCharge Networks operates across diverse global markets with significant variation in demand, usage, and revenue performance. However, the company lacks a unified, data-driven framework to:
+VoltCharge lacks a unified analytical framework to:
 
-- Allocate infrastructure efficiently  
+- Allocate infrastructure efficiently across regions  
 - Identify high-growth vs saturated markets  
-- Optimize pricing and utilization  
-- Maximize revenue across regions and customer segments  
+- Optimize pricing relative to demand  
+- Maximize revenue across locations and customer segments  
 
-This results in:
-- Overutilization in high-demand regions  
-- Underutilization in low-demand regions  
-- Revenue concentration risk  
-- Missed monetization and expansion opportunities  
+This leads to:
+- Overutilized stations in high-demand areas  
+- Underutilized assets in low-demand regions  
+- Revenue concentration in a few cities  
+- Missed monetization opportunities  
 
 ---
 
 ## Objective
 
-To analyze global EV charging data and uncover actionable insights that support:
+To transform raw operational data into actionable insights that support:
 
 - Infrastructure optimization  
 - Market expansion strategy  
@@ -43,45 +61,40 @@ To analyze global EV charging data and uncover actionable insights that support:
 
 ---
 
-# Analytical Insights
+# Global Network Performance Insights
 
 ---
 
-## 1. Global Energy Consumption Distribution (Macro Level Demand Analysis)
+## 1. Global Energy Consumption Distribution
 
 ### Analysis  
-Energy consumption ranges from **332,660 kWh to 5,558,444 kWh**, indicating a **~17x disparity** across regions.
+Energy consumption ranges from **332,660 kWh to 5,558,444 kWh (~17x difference)**, showing a highly uneven distribution.
 
 High consumption is concentrated in:
-- **USA and Canada (North America)**
-- **Norway and Netherlands (Europe)**  
+- **USA, Canada (North America)**  
+- **Norway, Netherlands (Europe)**  
 
-Emerging markets such as **India, China, and UAE** show moderate to growing consumption levels.
+Emerging markets such as **India, China, and UAE** show moderate but growing demand.
 
 ---
 
 ### Insight  
-EV demand is **highly uneven globally**, with clear segmentation between:
-
-- Mature, high-demand markets  
-- Emerging, underdeveloped markets  
-
-Consumption is strongly correlated with **economic development and infrastructure maturity**.
+EV demand is **geographically imbalanced**, with strong correlation to economic development and infrastructure maturity. Mature markets exhibit high utilization, while emerging regions remain underpenetrated.
 
 ---
 
 ### Business Action  
-- Optimize operations in mature markets  
-- Expand infrastructure in emerging markets  
-- Apply region-specific strategies for deployment  
+- Optimize efficiency in mature markets  
+- Expand infrastructure in high-growth regions  
+- Apply region-specific deployment strategies  
 
 ---
 
-## 2. Revenue Distribution by City (Revenue Concentration Analysis)
+## 2. Revenue Distribution by City
 
 ### Analysis  
 - **Total Revenue:** $13.30M  
-- Top cities:
+- Top contributors:
   - Dubai (~$2.5M)  
   - Toronto (~$2.0M)  
   - Paris (~$2.0M)  
@@ -91,80 +104,80 @@ Top 3 cities contribute **~49% of total revenue**.
 ---
 
 ### Insight  
-Revenue is **heavily concentrated in a few urban centers**, creating dependency on limited markets.
+Revenue is **highly concentrated**, exposing the business to geographic dependency risk.
 
 ---
 
 ### Business Action  
-- Diversify revenue sources across more cities  
-- Replicate high-performing city models  
-- Expand in similar high-demand urban environments  
+- Diversify revenue across more cities  
+- Replicate successful urban models  
+- Expand in similar high-demand metropolitan areas  
 
 ---
 
-## 3. Energy Consumption vs Revenue (Pricing Efficiency)
+## 3. Energy vs Revenue (Pricing Efficiency)
 
 ### Analysis  
-Cities with similar energy usage (~3M–4M kWh) generate **different revenue levels**, indicating inconsistency.
+Cities with similar consumption (~3M–4M kWh) generate **uneven revenue levels**.
 
 ---
 
 ### Insight  
-There is a **misalignment between usage and revenue**, suggesting pricing inefficiencies.
+There is a **pricing inefficiency**, where demand does not consistently translate into revenue.
 
 ---
 
 ### Business Action  
-- Implement location-based pricing strategies  
-- Optimize tariffs in high-demand areas  
-- Align pricing with demand intensity  
+- Implement **location-based pricing models**  
+- Adjust tariffs in high-demand regions  
+- Align pricing with demand elasticity  
 
 ---
 
-## 4. Peak Demand Analysis (Sessions by Hour)
+## 4. Peak Demand (Sessions by Hour)
 
 ### Analysis  
 - Morning peak: **~4,340 sessions (8 AM)**  
 - Evening peak: **~5,055 sessions (6 PM)**  
 - Off-peak: **~700 sessions**  
 
-→ **~7x variation in demand**
+→ **~7x demand fluctuation**
 
 ---
 
 ### Insight  
-Demand follows predictable **commuting patterns**, leading to peak congestion and off-peak underutilization.
+Demand follows predictable commuting patterns, creating peak congestion and off-peak inefficiency.
 
 ---
 
 ### Business Action  
-- Introduce time-based pricing  
-- Optimize station availability during peak hours  
+- Introduce **time-based pricing (peak vs off-peak)**  
+- Improve station allocation during peak hours  
 - Incentivize off-peak usage  
 
 ---
 
-## 5. Customer Segmentation (Monetization Opportunity)
+## 5. Customer Segmentation
 
 ### Analysis  
-- Basic: **70.03% (~14,006 users)**  
-- Premium: **29.97% (~5,994 users)**  
+- Basic: **70.03% (~14K users)**  
+- Premium: **29.97% (~6K users)**  
 
 ---
 
 ### Insight  
-Majority of users are **low-value customers**, indicating strong upsell potential.
+The majority of users are **low-value**, limiting overall revenue potential.
 
 ---
 
 ### Business Action  
-- Convert Basic users to Premium through targeted campaigns  
-- Introduce subscription incentives  
+- Target high-usage Basic users for upgrades  
+- Introduce Premium incentives  
 - Increase customer lifetime value  
 
 ---
 
-## 6. Customer Acquisition Trend (Growth Analysis)
+## 6. Customer Acquisition Trend
 
 ### Analysis  
 - January: **~1,038 users**  
@@ -176,7 +189,7 @@ Majority of users are **low-value customers**, indicating strong upsell potentia
 ---
 
 ### Insight  
-Growth is **non-linear and event-driven**, likely influenced by campaigns or external factors.
+Growth is **non-linear and event-driven**, suggesting influence from campaigns or external factors.
 
 ---
 
@@ -187,7 +200,7 @@ Growth is **non-linear and event-driven**, likely influenced by campaigns or ext
 
 ---
 
-## 7. Revenue Efficiency (Unit Economics)
+## 7. Revenue Efficiency
 
 ### Analysis  
 - **Avg Revenue per Session:** $265.91  
@@ -201,193 +214,118 @@ Revenue per session is strong but critical for scaling profitability.
 ---
 
 ### Business Action  
-- Improve revenue per session via pricing and subscriptions  
-- Monitor as a core KPI for profitability  
+- Increase revenue via pricing optimization  
+- Promote Premium subscriptions  
+- Track as a core KPI  
 
 ---
 
-# Business Impact
+# Station & Vehicle Performance Segmentation
 
-This analysis enables VoltCharge Networks to:
+![Station & Vehicle Dashboard](vehicle-station.png)
+
+---
+
+## 1. Revenue vs Downtime
+
+### Analysis  
+- High-revenue stations (~$2M+) operate at **0–5% downtime**  
+- Stations with **20–35% downtime generate near-zero revenue**
+
+---
+
+### Insight  
+Downtime has a **direct negative impact on revenue**, making reliability a key performance driver.
+
+---
+
+### Business Action  
+- Implement predictive maintenance  
+- Reduce downtime through monitoring systems  
+- Set uptime performance benchmarks  
+
+---
+
+## 2. Revenue per Session by Location
+
+### Analysis  
+- Highway: **$381.3**  
+- Urban: **$257.0**  
+- Mall: **$134.8**  
+
+→ Highway = **~2.8x mall revenue**
+
+---
+
+### Insight  
+User behavior varies by location:
+- High urgency (highway) → higher willingness to pay  
+- Low urgency (mall) → price sensitivity  
+
+---
+
+### Business Action  
+- Apply location-based pricing  
+- Expand highway infrastructure  
+- Improve low-performing locations  
+
+---
+
+## 3. Revenue by Vehicle Type
+
+### Analysis  
+- Electric Truck: **$2.76M**  
+- Electric Van: **$2.30M**  
+- Luxury EV: **$1.92M**  
+- Motorbike EV: **$0.26M**
+
+---
+
+### Insight  
+Heavy and commercial vehicles drive **higher revenue due to greater energy demand**.
+
+---
+
+### Business Action  
+- Focus on high-consumption vehicle segments  
+- Partner with fleet operators  
+- Tailor pricing for commercial usage  
+
+---
+
+## 4. Revenue Efficiency (Vehicle × Location)
+
+### Analysis  
+- Highest: Trucks on highways (**~686.6**)  
+- Lowest: Motorbikes in malls (**~22.2**)
+
+---
+
+### Insight  
+Revenue is maximized when **high-consumption vehicles meet high-value locations**.
+
+---
+
+### Business Action  
+- Prioritize high-efficiency combinations  
+- Reevaluate low-performing segments  
+- Optimize station placement strategy  
+
+---
+
+# Final Business Impact
+
+This project enables VoltCharge Networks to:
 
 - Optimize infrastructure allocation globally  
 - Reduce operational inefficiencies  
-- Diversify revenue streams  
-- Improve pricing strategies  
+- Improve pricing strategy and revenue yield  
 - Increase customer monetization  
-- Support data-driven expansion decisions  
+- Enhance station performance and uptime  
+- Support scalable, data-driven growth  
 
 ---
 
 # Key Takeaway
 
-This project transforms EV charging network data into actionable insights by identifying demand imbalances, revenue concentration risks, pricing inefficiencies, and customer monetization opportunities enabling smarter infrastructure, pricing, and growth strategies.
-
-
-
-# Station & Vehicle Performance Segmentation — Analytical Insights
-
-![Station & Vehicle Dashboard](Vehicle&Station.png)
-
----
-
-## Problem Statement
-
-While VoltCharge Networks has visibility into global demand and revenue, it lacks granular insight into:
-
-- Which **station types** generate the highest returns  
-- How **downtime impacts revenue performance**  
-- Which **vehicle segments drive profitability**  
-- Where operational inefficiencies reduce revenue potential  
-
-This results in:
-- Revenue loss due to station downtime  
-- Suboptimal pricing across locations  
-- Inefficient allocation of charging infrastructure by vehicle type  
-- Missed opportunities to maximize high-value segments  
-
----
-
-## Objective
-
-To analyze station-level and vehicle-level performance in order to:
-
-- Improve operational efficiency  
-- Maximize revenue per session  
-- Identify high-performing segments  
-- Optimize infrastructure and pricing strategies  
-
----
-
-# Analytical Insights
-
----
-
-## 1. Revenue vs Downtime (Operational Efficiency)
-
-### Analysis  
-The scatter plot shows a **negative relationship between downtime and revenue**:
-
-- High-revenue stations (~$2M+) operate at **low downtime (~0–5%)**  
-- Stations with **high downtime (20–35%) generate near-zero revenue**
-
----
-
-### Insight  
-Downtime has a **direct and significant impact on revenue generation**.
-
-Even small increases in downtime result in **disproportionate revenue loss**, indicating that station reliability is a critical revenue driver.
-
----
-
-### Business Action  
-- Prioritize **maintenance and uptime optimization**  
-- Implement **predictive maintenance systems**  
-- Set uptime benchmarks for high-performing stations  
-
----
-
-## 2. Revenue per Session by Location Type (Location Profitability)
-
-### Analysis  
-Average revenue per session:
-
-- **Highway:** ~$381.3  
-- **Urban:** ~$257.0  
-- **Mall:** ~$134.8  
-
-→ Highway locations generate **~2.8x more revenue per session than malls**
-
----
-
-### Insight  
-Charging behavior and willingness to pay vary significantly by location:
-
-- Highway users value **speed and urgency → higher pricing tolerance**  
-- Mall users are **price-sensitive and less time-constrained**
-
----
-
-### Business Action  
-- Implement **location-based pricing strategies**  
-- Expand highway charging infrastructure  
-- Introduce promotional pricing or incentives in low-yield locations (malls)  
-
----
-
-## 3. Revenue Contribution by Vehicle Type (Segment Performance)
-
-### Analysis  
-Top contributors:
-
-- **Electric Truck:** $2.76M  
-- **Electric Van:** $2.30M  
-- **Luxury EV:** $1.92M  
-
-Lowest contributors:
-- **Compact EV:** $0.72M  
-- **Motorbike EV:** $0.26M  
-
----
-
-### Insight  
-Heavy and commercial vehicles (trucks, vans) generate **significantly higher revenue** compared to smaller vehicle types.
-
-This suggests:
-- Higher energy consumption per session  
-- Greater reliance on charging infrastructure  
-
----
-
-### Business Action  
-- Prioritize infrastructure for **high-consumption vehicle segments**  
-- Design pricing models tailored for commercial usage  
-- Expand partnerships with fleet operators  
-
----
-
-## 4. Revenue Efficiency Across Location & Vehicle Segments
-
-### Analysis  
-The heatmap highlights performance differences across combinations:
-
-- Highest efficiency:
-  - **Electric Trucks on highways (~686.6)**  
-  - **Electric Vans on highways (~603.2)**  
-
-- Lowest efficiency:
-  - **Motorbike EV in malls (~22.2)**  
-  - **Compact EV in malls (~71.8)**  
-
----
-
-### Insight  
-Revenue efficiency is driven by a **combination of vehicle type and location**:
-
-- High-value combination: **Heavy vehicles + highways**  
-- Low-value combination: **Small vehicles + malls**
-
----
-
-### Business Action  
-- Focus investment on **high-efficiency segments (truck + highway)**  
-- Reevaluate ROI of low-performing segments  
-- Optimize station placement based on **vehicle-location demand patterns**
-
----
-
-# Business Impact
-
-This analysis enables VoltCharge Networks to:
-
-- Reduce revenue loss caused by downtime  
-- Optimize pricing based on location behavior  
-- Focus on high-value vehicle segments  
-- Improve infrastructure ROI through targeted deployment  
-- Increase overall network efficiency and profitability  
-
----
-
-# Key Takeaway
-
-This project identifies how station reliability, location type, and vehicle segmentation directly impact revenue, enabling VoltCharge Networks to optimize operations, pricing, and infrastructure for maximum profitability.
+This analysis transforms EV charging data into actionable strategy by identifying demand imbalances, revenue concentration risks, pricing inefficiencies, and operational gaps—enabling smarter decisions across infrastructure, pricing, and customer growth.
