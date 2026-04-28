@@ -36,3 +36,26 @@ VoltCharge Networks is fundamentally a **data-driven organization**. It leverage
 - Geographic performance insights  
 
 to optimize pricing, improve infrastructure utilization, and guide strategic expansion decisions.
+
+
+# Global EV Charging Network Performance — Analytical Insights
+
+![Global EV Charging Dashboard](Global Charging.png)
+
+This project delivers a comprehensive evaluation of a global electric vehicle (EV) charging network by integrating geographic, temporal, financial, and behavioral data. The objective is to uncover inefficiencies, identify growth opportunities, and support strategic decision-making across infrastructure planning, pricing, and customer monetization.
+
+---
+
+## 1. Global Energy Consumption Distribution (Macro-Level Demand Analysis)
+
+The geographic heatmap reveals a highly uneven distribution of energy consumption, ranging from approximately **332,660 kWh** at the lower end to **5,558,444 kWh** at the upper bound, indicating a nearly **17x disparity** between low- and high-demand regions.
+
+North America—specifically the United States and Canada—dominates total consumption, positioning it as the most mature EV charging market in the dataset. Europe, particularly Norway and the Netherlands, exhibits disproportionately high consumption relative to geographic size, signaling high EV penetration and strong infrastructure utilization efficiency.
+
+In contrast, countries such as India, China, and the UAE show comparatively moderate consumption levels. Given their population size and economic trajectory, this suggests underdeveloped charging infrastructure rather than low demand potential.
+
+### Strategic Interpretation
+
+- Mature markets (USA, Canada, Norway) should focus on **operational efficiency and grid optimization**, as demand is already saturated.  
+- Emerging markets represent **high-growth investment opportunities**, where infrastructure expansion could yield exponential returns.  
+- The **17x variance** highlights global imbalance, reinforcing the need for **region-specific strategies** rather than a uniform deployment model.  
