@@ -40,7 +40,7 @@ to optimize pricing, improve infrastructure utilization, and guide strategic exp
 
 # Global EV Charging Network Performance — Analytical Insights
 
-![Global EV Charging Dashboard](Global Charging.png)
+![Global EV Charging Dashboard](Global Charging .png)
 
 This project delivers a comprehensive evaluation of a global electric vehicle (EV) charging network by integrating geographic, temporal, financial, and behavioral data. The objective is to uncover inefficiencies, identify growth opportunities, and support strategic decision-making across infrastructure planning, pricing, and customer monetization.
 
