@@ -227,7 +227,7 @@ This project transforms EV charging network data into actionable insights by ide
 
 # Station & Vehicle Performance Segmentation — Analytical Insights
 
-![Station & Vehicle Dashboard](vehicle-station.png)
+![Station & Vehicle Dashboard](Vehicle&Station.png)
 
 ---
 
